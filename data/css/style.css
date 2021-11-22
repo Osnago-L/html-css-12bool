@@ -14,12 +14,33 @@ h3{
     background-color: rgba(0, 0, 255, 0.658);
     border: 1px solid white;
 }
-#inner-box{
+.inner-box{
     height: 100%;
     padding: 10px 10px;
 }
-#inner-box>div{
+.inner-box>div{
     background-color: greenyellow;
     height: 100%;
     border: 1px solid rgba(0, 0, 255, 0.685);
+}
+.align{
+    width: 100%;
+}
+.double{
+    width: 50%;
+}
+.double div:first-child{
+    border-bottom: none;
+}
+.double div:last-child{
+    border-top: none;
+}
+.top{
+    align-self: flex-start;
+}
+.middle{
+    align-self: center;
+}
+.bottom{
+    align-self: flex-end;
 }
