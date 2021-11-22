@@ -3,8 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+section{
+    margin-bottom: 30px;
+}
+h3{
+    margin: 10px 0;
+}
 [class*="col-"]{
-    height: 30px;
-    background-color: red;
-    border: 1px solid black;
+    height: 50px;
+    background-color: rgba(0, 0, 255, 0.658);
+    border: 1px solid white;
+}
+#inner-box{
+    height: 100%;
+    padding: 10px 10px;
+}
+#inner-box>div{
+    background-color: greenyellow;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 255, 0.685);
 }
